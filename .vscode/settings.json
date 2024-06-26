@@ -1,0 +1,24 @@
+{
+  "editor.tabSize": 2,
+  "explorer.fileNesting.enabled": true,
+  "css.customData": [".vscode/tailwind.json"],
+  "explorer.fileNesting.patterns": {
+    "docker-compose.yml": "Dockerfile, .dockerignore",
+    "Dockerfile": ".dockerignore",
+    "README*": "LICENSE*, .gitignore, CHANGELOG*",
+    ".env": ".env*",
+    ".eslintrc.json": ".prettierrc.json",
+    "tailwind.config.ts": "postcss.config.mjs, components.json",
+    "*.tsx": "*.test.ts"
+  },
+  "files.exclude": {
+    /* Node */
+    "node_modules": true,
+
+    /* NextJs */
+    "next-env.d.ts": true,
+
+    /* Typescript */
+    "tsconfig.json": false
+  }
+}

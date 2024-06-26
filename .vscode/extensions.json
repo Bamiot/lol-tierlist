@@ -1,0 +1,10 @@
+{
+  "recommendations": [
+    "esbenp.prettier-vscode",
+    "dbaeumer.vscode-eslint",
+    "wallabyjs.console-ninja",
+    "pkief.material-icon-theme",
+    "bradlc.vscode-tailwindcss",
+    "stivo.tailwind-fold"
+  ]
+}
